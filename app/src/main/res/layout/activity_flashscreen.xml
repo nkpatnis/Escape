@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullscreen_content_controls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.escape.tna.escape.FlashscreenActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="149dp"
+        android:textColor="#ffffff"
+        android:text="@string/escape"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="33dp"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/escape_logo"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="62dp" />
+
+</RelativeLayout>
