@@ -7,27 +7,27 @@
     tools:context="com.escape.tna.escape.FlashscreenActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="80sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="149dp"
-        android:textColor="#ffffff"
-        android:text="@string/escape"
-        android:layout_gravity="center_horizontal|bottom"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="149dp"
+        android:text="@string/escape"
+        android:textColor="#ffffff"
+        android:textSize="80sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/fullscreen_content"
         android:layout_width="74dp"
         android:layout_height="74dp"
-        android:layout_marginEnd="33dp"
-        android:layout_gravity="end|center_vertical"
-        android:src="@drawable/escape_logo"
         android:layout_alignBottom="@+id/textView"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="62dp" />
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="33dp"
+        android:src="@drawable/escape_logo" />
 
 </RelativeLayout>

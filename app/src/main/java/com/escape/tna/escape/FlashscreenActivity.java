@@ -172,6 +172,7 @@ public class FlashscreenActivity extends AppCompatActivity {
         public void run() {
             Intent i = new Intent(getApplicationContext(),DashboardActivity.class);
             startActivity(i);
+            finish();
         }
     };
 }
