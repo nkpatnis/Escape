@@ -121,7 +121,7 @@ public class FlashscreenActivity extends AppCompatActivity {
         //will care for all posts
         Handler mHandler = new Handler();
 
-        mHandler.postDelayed(mLaunchTask,3000);
+        mHandler.postDelayed(mLaunchTask, 3000);
     }
 
     private void toggle() {
@@ -170,7 +170,7 @@ public class FlashscreenActivity extends AppCompatActivity {
     //will launch the activity
     private Runnable mLaunchTask = new Runnable() {
         public void run() {
-            Intent i = new Intent(getApplicationContext(),DashboardActivity.class);
+            Intent i = new Intent(getApplicationContext(), DashboardActivity.class);
             startActivity(i);
             finish();
         }
