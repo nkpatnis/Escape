@@ -1,6 +1,8 @@
 package com.escape.tna.escape.adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,6 +37,8 @@ public class FeedAdapter extends RecyclerView.Adapter<mViewHolder> {
 
     @Override
     public void onBindViewHolder(mViewHolder holder, int position) {
+
+
         holder.image.setImageResource(feeds.get(position).getId());
         holder.name.setText(feeds.get(position).getTitle());
         holder.desc.setText(feeds.get(position).getDesc());

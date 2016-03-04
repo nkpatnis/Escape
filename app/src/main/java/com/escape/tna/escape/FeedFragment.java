@@ -41,17 +41,20 @@ public class FeedFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         ArrayList<Feed> feeds = new ArrayList<>();
-        feeds.add(new Feed("Wayanad", R.drawable.img1));
-        feeds.add(new Feed("Munnar", R.drawable.img2));
-        feeds.add(new Feed("Allepy", R.drawable.img3));
-        feeds.add(new Feed("Coorg", R.drawable.img4));
-        feeds.add(new Feed("Gokarna", R.drawable.img5));
+        for (int i = 0; i < 20; i++) {
+            feeds.add(new Feed("Wayanad", R.drawable.img1));
+        }
 
-        feeds.add(new Feed("Bangalore", R.drawable.img1));
-        feeds.add(new Feed("Goa", R.drawable.img2));
-        feeds.add(new Feed("Pune", R.drawable.img3));
-        feeds.add(new Feed("Indore", R.drawable.img4));
-        feeds.add(new Feed("Zuluk", R.drawable.img5));
+//        feeds.add(new Feed("Munnar", R.drawable.img2));
+//        feeds.add(new Feed("Allepy", R.drawable.img3));
+//        feeds.add(new Feed("Coorg", R.drawable.img4));
+//        feeds.add(new Feed("Gokarna", R.drawable.img5));
+//
+//        feeds.add(new Feed("Bangalore", R.drawable.img1));
+//        feeds.add(new Feed("Goa", R.drawable.img2));
+//        feeds.add(new Feed("Pune", R.drawable.img3));
+//        feeds.add(new Feed("Indore", R.drawable.img4));
+//        feeds.add(new Feed("Zuluk", R.drawable.img5));
 
         recyclerView = (RecyclerView) view.findViewById(R.id.feed_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));

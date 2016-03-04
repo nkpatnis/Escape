@@ -5,4 +5,7 @@
     <color name="colorAccent">#F16828</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="loginBack">#500090d3</color>
+    <color name="loginBtnBack">#8d0090d3</color>
+    <color name="loginHintText">#96ffffff</color>
 </resources>

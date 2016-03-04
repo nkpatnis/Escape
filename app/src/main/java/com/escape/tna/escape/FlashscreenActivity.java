@@ -170,7 +170,7 @@ public class FlashscreenActivity extends AppCompatActivity {
     //will launch the activity
     private Runnable mLaunchTask = new Runnable() {
         public void run() {
-            Intent i = new Intent(getApplicationContext(), DashboardActivity.class);
+            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
             startActivity(i);
             finish();
         }

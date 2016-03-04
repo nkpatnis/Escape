@@ -2,6 +2,7 @@ package com.escape.tna.escape.model;
 
 /**
  * Created by nikhil on 3/4/2016.
+ *
  */
 public class Feed {
 
